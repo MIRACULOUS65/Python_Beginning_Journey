@@ -1,1 +1,1 @@
-print(z) 
+marks ={"harry": 98, "sally": 100, "john": 95, "jane": 90}
