@@ -21,13 +21,6 @@ except Exception as e:
     print("Please make sure you have pasted a valid API key.")
     exit()
 
-# Check if the API key was set correctly
-if API_KEY == "PASTE_YOUR_GEMINI_API_KEY_HERE":
-    print("="*50)
-    print("ERROR: Please replace 'PASTE_YOUR_GEMINI_API_KEY_HERE' with your actual Gemini API key in the script.")
-    print("="*50)
-    exit()
-
 # Initialize the Gemini model
 # The model name 'gemini-1.0-pro' can sometimes be unavailable.
 # Using 'gemini-1.5-flash-latest' is a more current and reliable choice.
