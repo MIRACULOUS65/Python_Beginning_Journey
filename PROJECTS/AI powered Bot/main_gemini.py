@@ -11,7 +11,7 @@ import os
 # It's better to use an environment variable or a secrets management tool.
 # However, for this simple example, we will ask you to paste it here.
 # I have removed the key you provided for your safety.
-API_KEY = "AIzaSyBVZ7b-4G54pHtKugiOlWqK4nhf53ReDnU"
+API_KEY = ""
 
 try:
     # Configure the Gemini API with your key
